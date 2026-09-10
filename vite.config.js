@@ -7,6 +7,6 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: './test-aufbau.js',
-    include: ['level*/**/*.test.jsx', 'abschluss/**/*.test.jsx', 'loesungen/**/*.test.jsx'],
+    include: ['level*/**/*.test.jsx', 'abschluss/**/*.test.jsx', 'Loesungen/**/*.test.jsx'],
   },
 });

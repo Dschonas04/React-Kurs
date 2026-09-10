@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, test } from 'vitest';
 
-import { Gruss, Kasten, Liste, Preis, Zustand } from './aufgabe.jsx';
+import { Gruss, Kasten, Liste, Preis, Zustand } from './uebung.jsx';
 
 describe('Level 1', () => {
   test('1.1 Gruss zeigt den Namen', () => {

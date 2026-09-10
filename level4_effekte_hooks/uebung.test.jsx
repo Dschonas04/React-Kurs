@@ -2,7 +2,7 @@ import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, test, vi } from 'vitest';
 
-import { Laden, Titel, Uhr, useSchalter } from './aufgabe.jsx';
+import { Laden, Titel, Uhr, useSchalter } from './uebung.jsx';
 
 // Eine kleine Komponente, um den Hook zu prüfen.
 function SchalterProbe() {

@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, test } from 'vitest';
 
-import { DoppelKlick, Eingabe, Schalter, Warenkorb, Zaehler } from './aufgabe.jsx';
+import { DoppelKlick, Eingabe, Schalter, Warenkorb, Zaehler } from './uebung.jsx';
 
 describe('Level 2', () => {
   test('2.1 Zaehler zählt hoch und runter', async () => {

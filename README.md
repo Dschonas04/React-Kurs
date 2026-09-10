@@ -11,14 +11,19 @@ npm install
 
 ## Aufbau
 
-| Datei                | Zweck                                              |
-| -------------------- | -------------------------------------------------- |
-| `theorie.txt`        | Konzepte lesen und verstehen                        |
-| `aufgabe.jsx`        | Komponenten mit `// TODO` -- hier arbeitest du       |
-| `aufgabe.test.jsx`   | die Tests. **Nicht ändern**, sie sind die Aufgabe   |
+| Datei                  | Zweck                                            |
+| ---------------------- | ------------------------------------------------ |
+| `theorie.txt`          | Konzepte lesen und verstehen                     |
+| `Aufgabenstellung.txt` | was zu tun ist, in Worten                        |
+| `uebung.jsx`           | deine Komponenten -- die Exporte stehen schon da  |
+| `uebung.test.jsx`      | die Tests. **Nicht ändern**, sie sind die Aufgabe |
 
-Die Musterlösungen liegen unter `loesungen/` und laufen gegen dieselben
-Tests.
+Die Musterlösungen liegen gesammelt in [`Loesungen/`](Loesungen/) und
+laufen gegen dieselben Tests.
+
+Die Exporte bleiben stehen, weil die Tests sie so importieren. Eine ganz
+leere Datei würde am Import scheitern, und die Fehlermeldung hätte nichts
+mit der Aufgabe zu tun.
 
 ## Los geht es
 

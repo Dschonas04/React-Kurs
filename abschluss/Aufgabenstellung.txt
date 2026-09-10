@@ -2,7 +2,7 @@
   ABSCHLUSS: Notizen
 ════════════════════════════════════════════════════════════════
 
-  Baue in aufgabe.jsx eine kleine Notizverwaltung. Alles aus den
+  Baue in uebung.jsx eine kleine Notizverwaltung. Alles aus den
   vier Leveln kommt darin vor.
 
   Verlangt ist eine Komponente Notizen({ laden }):

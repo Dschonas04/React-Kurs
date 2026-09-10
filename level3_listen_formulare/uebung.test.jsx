@@ -2,7 +2,7 @@ import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, test, vi } from 'vitest';
 
-import { Aufgabenliste, NeuerEintrag } from './aufgabe.jsx';
+import { Aufgabenliste, NeuerEintrag } from './uebung.jsx';
 
 describe('Level 3', () => {
   test('3.1 Formular meldet den Text nach oben und leert sich', async () => {

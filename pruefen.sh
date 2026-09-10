@@ -15,7 +15,7 @@ cd "$(dirname "$0")"
 welche="${1:-alle}"
 case "$welche" in
   alle)       ziel=(level1_komponenten level2_zustand level3_listen_formulare level4_effekte_hooks abschluss) ;;
-  --loesung)  ziel=(loesungen) ;;
+  --loesung)  ziel=(Loesungen) ;;
   abschluss)  ziel=(abschluss) ;;
   [0-9]*)     ziel=("$(ls -d level"$welche"_* 2>/dev/null)") ;;
   *)          printf 'Unbekannt: %s\n' "$welche"; exit 1 ;;
