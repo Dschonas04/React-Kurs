@@ -1,5 +1,9 @@
 # React-Kurs
 
+[![Prüfung](https://github.com/Dschonas04/React-Kurs/actions/workflows/pruefen.yml/badge.svg)](https://github.com/Dschonas04/React-Kurs/actions/workflows/pruefen.yml)
+[![Lizenz: CC BY-SA 4.0](https://img.shields.io/badge/Lizenz-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE-CODE)
+
 React in vier Leveln, geprüft von Vitest und der Testing Library --
 also mit den Werkzeugen, mit denen in React wirklich getestet wird.
 
@@ -69,3 +73,15 @@ sonst erst als langsam wachsender Speicherverbrauch zeigt.
 ## Voraussetzungen
 
 Node 18 oder neuer. Prüfen mit `node -v`.
+
+## Mitmachen
+
+Fehler gefunden oder eine Idee für eine Aufgabe? Siehe
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Lizenz
+
+Die Kurstexte (Theorie, Aufgabenstellungen, README) stehen unter
+[CC BY-SA 4.0](LICENSE): frei nutzbar und veränderbar, mit Namensnennung
+und unter gleichen Bedingungen. Der Code (Beispiele, Musterlösungen,
+Prüfer) steht unter der [MIT-Lizenz](LICENSE-CODE).
